@@ -1,9 +1,9 @@
-package observer1;
+package observer3;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class ColorPanel extends JPanel {
+public abstract class ColorPanel extends JPanel {
     private Color color;
 
     public ColorPanel(Color initialColor) {
