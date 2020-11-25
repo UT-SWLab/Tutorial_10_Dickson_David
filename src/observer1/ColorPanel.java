@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class ColorPanel extends JPanel {
     private Color color;
-
+    private int test;
     public ColorPanel(Color initialColor) {
         this.color = initialColor;
     }
